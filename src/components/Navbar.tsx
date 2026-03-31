@@ -31,7 +31,7 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="text-2xl font-display font-bold tracking-tighter">
-          SH<span className="text-brand-500">.</span>
+          S H<span className="text-brand-500">.</span>
         </Link>
 
         {/* Desktop Nav */}
