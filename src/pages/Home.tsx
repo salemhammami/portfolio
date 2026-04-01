@@ -110,7 +110,7 @@ export const Home = () => {
             <div className="max-w-4xl">
               <div className="space-y-2">
                 <span className="text-xs font-mono uppercase tracking-[0.3em] text-brand-500 block mb-4">
-                  Creative UX/UI Designer — Based in Paris
+                  Creative UX/UI Designer — Graphic Designer
                 </span>
                 <h1 className="title-xl text-brand-900">
                   Crafting <br />
