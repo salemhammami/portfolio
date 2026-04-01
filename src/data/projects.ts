@@ -224,8 +224,8 @@ export const projects: Project[] = [
     client: "1Health",
     description: "Mobile-first redesign of a health and wellness magazine blog.",
     tags: ["Blog Design", "Mobile-First", "Health"],
-    image: "/Bien-être & Santé/9.png",
-    overview: "Redesign of the Bien-être & Santé blog with a focus on mobile user journeys and audience segmentation.",
+    image: "/bien-etre-sante/9.png",
+    overview: "Redesign of the bien-etre-sante blog with a focus on mobile user journeys and audience segmentation.",
     problem: "The existing blog was difficult to navigate on mobile and didn't effectively distinguish between general readers and professionals.",
     objectives: "Conceive a credible and readable content platform capable of managing a double audience: the general public and professionals.",
     role: "UI Designer",
@@ -241,19 +241,19 @@ export const projects: Project[] = [
     },
     results: "A highly readable and credible platform that effectively manages a diverse audience.",
     processImages: {
-      research: "/Bien-être & Santé/10.png",
-      userFlow: "/Bien-être & Santé/11.png",
-      design: "/Bien-être & Santé/12.png",
-      testing: "/Bien-être & Santé/13.png"
+      research: "/bien-etre-sante/10.png",
+      userFlow: "/bien-etre-sante/11.png",
+      design: "/bien-etre-sante/12.png",
+      testing: "/bien-etre-sante/13.png"
     },
     gallery: [
-      "/Bien-être & Santé/9.png",
-      "/Bien-être & Santé/10.png",
-      "/Bien-être & Santé/11.png",
-      "/Bien-être & Santé/12.png",
-      "/Bien-être & Santé/13.png",
-      "/Bien-être & Santé/14.png",
-      "/Bien-être & Santé/15.png"
+      "/bien-etre-sante/9.png",
+      "/bien-etre-sante/10.png",
+      "/bien-etre-sante/11.png",
+      "/bien-etre-sante/12.png",
+      "/bien-etre-sante/13.png",
+      "/bien-etre-sante/14.png",
+      "/bien-etre-sante/15.png"
     ],
     tools: ["Figma", "FigJam", "Design System", "Photoshop"],
     featured: false
