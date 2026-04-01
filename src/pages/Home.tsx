@@ -86,13 +86,12 @@ export const Home = () => {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col items-center text-center gap-12"
           >
-            <div className="relative max-w-[200px] md:max-w-[240px] flex-shrink-0">
-              <div className="relative aspect-square rounded-full overflow-hidden border-2 border-brand-900/10 shadow-2xl group cursor-zoom-in" onClick={() => setSelectedImage("/profile.jpg")}>
+            <div className="relative max-w-[200px] md:max-w-[290px] flex-shrink-0">
+              <div className="relative aspect-square rounded-full overflow-hidden border-2 border-brand-900/10 shadow-2xl group">
                 <img 
                   src="/profile.jpg" 
                   alt="Salem Hammami" 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
-                />
+                  className="w-full h-full object-cover transition-all duration-700 hover:grayscale hover:scale-110"                />
                 <div className="absolute inset-0 bg-brand-900/20 mix-blend-overlay group-hover:opacity-0 transition-opacity" />
               </div>
               
@@ -147,7 +146,7 @@ export const Home = () => {
             <span className="text-[10px] font-mono uppercase tracking-[0.4em] text-brand-400">
               Selected Partners
             </span>
-            <div className="flex gap-4">
+            <div className="flex gap-6">
               <button 
                 onClick={() => scroll("left")}
                 className="w-10 h-10 rounded-full border border-brand-200 flex items-center justify-center hover:bg-brand-900 hover:text-white transition-all"
@@ -171,7 +170,7 @@ export const Home = () => {
             onMouseLeave={handleMouseLeave}
             onMouseUp={handleMouseUp}
             onMouseMove={handleMouseMove}
-            className={`flex overflow-x-auto scrollbar-hide gap-0 items-center px-6 md:px-12 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
+            className={`flex overflow-x-auto scrollbar-hide gap-0 items-center px-1 md:px-6 ${isDragging ? 'cursor-grabbing select-none' : 'cursor-grab'}`}
             style={{ scrollSnapType: isDragging ? 'none' : 'x mandatory', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {clients.map((client, idx) => (
